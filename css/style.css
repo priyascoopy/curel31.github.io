@@ -937,34 +937,6 @@ margin-bottom:100px;
     padding: 0;
   }
 }
-/*RESIZESCREEN ANIMATION*/
-.fa-angle-double-right {
-  animation: rightanime 1s linear infinite;
-}
-
-.fa-angle-double-left {
-  animation: leftanime 1s linear infinite;
-}
-@keyframes rightanime {
-  50% {
-    transform: translateX(10px);
-    opacity: 0.5;
-  }
-  100% {
-    transform: translateX(10px);
-    opacity: 0;
-  }
-}
-@keyframes leftanime {
-  50% {
-    transform: translateX(-10px);
-    opacity: 0.5;
-  }
-  100% {
-    transform: translateX(-10px);
-    opacity: 0;
-  }
-}
 
 
 /* carou */
